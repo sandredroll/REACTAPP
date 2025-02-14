@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "vijay",
+      "email": "vujay@gmail.com",
+      "phone": "630909090"
+    },
+    {
+      "id": 2,
+      "name": "sejal",
+      "email": "sejal@gmail.com",
+      "phone": "6301109090"
+    },
+    {
+      "id": 3,
+      "name": "sadhna",
+      "email": "sadhna@gamil.com",
+      "phone": "630129090"
+    },
+    {
+      "id": "5564",
+      "name": "kavya",
+      "email": "kavya@gmail.com",
+      "phone": "1234567"
+    },
+    {
+      "id": "3bd4",
+      "name": "sandhya",
+      "email": "san@gmail.com",
+      "phone": "12345"
+    },
+    {
+      "id": "efcc",
+      "name": "vidya",
+      "email": "vidya@gmail.com",
+      "phone": "123456789"
+    }
+  ]
+}

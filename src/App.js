@@ -1,4 +1,5 @@
-import React from 'react'
+//  import React from 'react'
+/*
 import Navbar from './components/Navbar'
 import {BrowserRouter , Routes , Route} from "react-router-dom";
 import Dashboard from './pages/Dashboard';
@@ -11,7 +12,7 @@ import Blog from './pages/Blog';
 import PageNotFound from './pages/PageNotFound';
 import Profile1 from './pages/Profile1';
 import MyAccount from './pages/MyAccount';
-import MySettings from './pages/MySettings';
+import MySettings from './pages/MySettings';   
 const App = () => {
   return (
     <BrowserRouter>
@@ -31,6 +32,27 @@ const App = () => {
                 
             <Route path='*' element={<PageNotFound/>}/>
         </Routes>
+    </BrowserRouter>   
+  )
+}
+
+export default App  */
+
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './crudcomponents/Home'
+import Create from './crudcomponents/Create'
+import Edit from './crudcomponents/Edit'
+
+const App = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/create' element={<Create/>}/>
+
+      <Route path='/edit/:userId' element={<Edit/>}/>
+    </Routes>
     </BrowserRouter>
   )
 }
